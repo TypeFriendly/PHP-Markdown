@@ -2721,6 +2721,11 @@ See the readme file for detailed release notes for this version.
 Copyright and License
 ---------------------
 
+PHP Markdown Extra Fork  
+Copyright (c) 2009-2010 Jacek Jêdrzejewski  
+<http://www.jacek.jedrzejewski.name/>  
+All rights reserved.
+
 PHP Markdown & Extra  
 Copyright (c) 2004-2009 Michel Fortin  
 <http://michelf.com/>  

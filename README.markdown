@@ -56,8 +56,8 @@ HTML tags in code block in blockquote bug
 Copyright and License
 =====================
 
-PHP Markdown Extra Fork 
-Copyright (c) 2009-2010 Jacek Jędrzejewski 
+PHP Markdown Extra Fork  
+Copyright (c) 2009-2010 Jacek Jędrzejewski  
 <http://www.jacek.jedrzejewski.name/>  
 All rights reserved.
 
