@@ -6,7 +6,9 @@ This fork has been created to fix a bug (or bugs) in PHP Markdown Extra, found d
 HTML tags in code block in blockquote bug
 -----------------------------------------
 
-Markdown source:
+*Reported to Michel, no response on that.* HTML code put in code block breaks a blockquote. There is a one line of Regex responsible for that, when removed - it works OK. However, I'm not sure what was the purpose of that line. I tested my version on Michel's test suite, also on tons of my makrdown files and I don't see any side effects. 
+
+#### Markdown source:
 
     something
     
@@ -24,7 +26,7 @@ Markdown source:
     
     whatever
     
-Generated output:
+#### Generated output:
 
     <p>something</p>
     
