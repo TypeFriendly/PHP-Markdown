@@ -1707,14 +1707,14 @@ class MarkdownExtra_Parser extends Markdown_Parser {
 				'. ( !$span ? ' # If not in span.
 				|
 					# Indented code block
-					# (?: ^[ ]*\n | ^ | \n[ ]*\n )
+					(?: ^[ ]*\n | ^ | \n[ ]*\n )
 					[ ]{'.($indent+4).'}[^\n]* \n
 					(?>
 						(?: [ ]{'.($indent+4).'}[^\n]* | [ ]* ) \n
 					)*
 				|
 					# Fenced code block marker
-					(?> ^ | \n )
+					# (?> ^ | \n )
 					[ ]{'.($indent).'}~~~+[ ]*\n
 				' : '' ). ' # End (if not is span).
 				)
