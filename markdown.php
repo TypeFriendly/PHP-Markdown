@@ -557,14 +557,14 @@ class Markdown_Parser {
 		# These must come last in case you've also got [link text][1]
 		# or [link text](/foo)
 		#
-		$text = preg_replace_callback('{
+		/*$text = preg_replace_callback('{
 			(					# wrap whole match in $1
 			  \[
 				([^\[\]]+)		# link text = $2; can\'t contain [ or ]
 			  \]
 			)
 			}xs',
-			array(&$this, '_doAnchors_reference_callback'), $text);
+			array(&$this, '_doAnchors_reference_callback'), $text);*/
 
 		$this->in_anchor = false;
 		return $text;
